@@ -1,0 +1,72 @@
+/* CSS Document */
+
+
+#nav a {
+ width: 185px; 
+ display: block;
+ padding-left:20px;
+ /*Width(一定要)，否则下面的Li会变形*/
+}
+#nav li {
+ background: url(../images/socend_bg2.gif) no-repeat;  width:203px; line-height:27px;  /*一级目录的背景色*/
+ border-bottom:#F3F1F2 5px solid; /*下面的一条边*/
+ float:left;
+ /*float：left,本不应该设置，但由于在Firefox不能正常显示
+ 继承Nav的width,限制宽度，li自动向下延伸*/
+}
+#nav li a:hover{ text-indent:10px;color:#0066CC;  /*一级目录onMouseOver显示的背景色*/
+}
+
+#nav a:link  { color:#000099; text-decoration:none;text-indent:10px;font-weight:bold;
+}
+#nav a:visited  {color:#000099; text-decoration:none;text-indent:10px;font-weight:bold;}
+#nav a:hover  {text-indent:10px;
+ color:#FFF;text-decoration:none;font-weight:bold;
+}
+/*==================二级目录===================*/
+#nav li ul {
+ list-style:none;
+ text-align:left;border-top:#F3F1F2 2px solid;
+}
+#nav li ul li{ 
+ background: url(../images/socend_bg3.gif) #EBEBEB no-repeat;border-bottom:#F3F1F2 1px solid; /*二级目录的背景色*/
+}
+#nav li ul a{
+         padding-left:20px;
+         width:182px;
+ /* padding-left二级目录中文字向右移动，但Width必须重新设置=(总宽度-padding-left)*/
+}
+/*下面是二级目录的链接样式*/
+#nav li ul a:link  {
+ color:#666; text-decoration:none; font-weight:normal; line-height:24px;
+}
+#nav li ul a:visited  {
+ color:#666;text-decoration:none;font-weight:normal;
+ line-height:24px;
+}
+#nav li ul a:hover {
+ color:#F3F3F3;
+ text-decoration:none;
+ font-weight:normal;background: url(../images/socend_bg4.gif) #003399 no-repeat;
+ font-weight:normal;
+ line-height:24px;
+ /* 二级onmouseover的字体颜色、背景色*/
+}
+/*==============================*/
+#nav li:hover ul {
+ left: auto;
+}
+#nav li.sfhover ul {
+ left: auto;
+}
+#content {
+ clear: left; 
+}
+#nav ul.collapsed {
+ display: none;
+}
+-->
+#PARENT{
+ width:205px; padding:10px;
+ overflow:hidden;
+}

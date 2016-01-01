@@ -1,0 +1,62 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="divmain">
+        <div>
+            <map name="FPMap0" id="FPMap0">
+			<area href="index.asp" shape="rect" coords="332, 129, 382, 145" />
+			<area href="2" shape="rect" coords="409, 130, 458, 147" />
+			<area href="3" shape="rect" coords="497, 130, 557, 146" />
+			<area href="4" shape="rect" coords="591, 123, 650, 146" />
+			<area href="5" shape="rect" coords="693, 128, 754, 147" />
+			<area href="6" shape="rect" coords="783, 127, 846, 148" />
+			</map>
+            <img src="images/top1.jpg" usemap="#FPMap0" border="0" /></div>
+        <div>
+            <img src="images/flash1.jpg" />
+        </div>
+        <div class="center">
+            <div class="leftmain">
+                <div style="width: 199px; margin: 0px auto;">
+                    <div  class="lefttop">
+                        产品类别
+                    </div>
+                    <div class="leftbgcontent1">
+                        <dl>
+                            <dt><a href="#">dfdfdf</a></dt><dt>dfdfdf</dt><dt>dfdfdf</dt>
+                            <dt><a href="#">dfdfdf</a></dt><dt>dfdfdf</dt><dt>dfdfdf</dt>
+                            <dt><a href="#">dfdfdf</a></dt><dt>dfdfdf</dt><dt>dfdfdf</dt>
+                        </dl>
+                    </div>
+                    <div class="leftbot">更多>></div>
+                </div>
+            </div>
+            <div class="centerright">
+                <div class="centertop">
+                    俱乐部简介</div>
+                <div class="centeraboutus">
+                </div>
+                <div class="centertop">
+                    产品展示</div>
+                <div class="centeraboutus" style="overflow: hidden;">
+                    <br />
+                </div>
+            </div>
+        </div>
+
+    <div class="bottom">
+        <div style="width: 400px; height: 60px; margin: 15px auto 15px auto; line-height: 25px; color:Black; ">
+            版权所有：红粉佳人俱乐部&nbsp;&nbsp;&nbsp;地址：<br />
+            电话：联系人：QQ：</div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='GB2312'?>
+<imgList>
+<pic>
+<list path="swf/swf_img/big-10929.jpg"   smallpath="swf/swf_img/small-104942.png" smallinfo="">http://www.123.com/</list>
+<list path="swf/swf_img/big-173051.jpg"   smallpath="swf/swf_img/small-173056.png" smallinfo="ThinkPad 让思想更有力">http://www.123.com/</list>
+<list path="swf/swf_img/big-162330.jpg"   smallpath="swf/swf_img/small-162339.png" smallinfo="扬天春季大促销">http://www.123.com/</list>
+</pic>
+<rollTime fade_in="10">4</rollTime>
+<text font="黑体" size="12" bold="true" color="0xfffffff"></text>
+</imgList>

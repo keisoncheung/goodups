@@ -1,0 +1,13 @@
+.mainleft_1{ float:left; MARGIN: 12px 0px 8px 4px; width:228px; overflow:hidden;}
+
+#mainleft{ background: url(../images/socend_bg.gif) repeat-y; width:228px; margin:0px; padding:0px;}
+.left-title { MARGIN:0px;}
+#leftmenu {MARGIN: 0px 10px 0px; padding: 10px 0px;}
+#leftmenu LI { padding-TOP: 7px; text-indent:35px;background:url(../images/socend_bg2.gif) no-repeat; LINE-HEIGHT: 20px; HEIGHT: 27px; TEXT-ALIGN: left
+}
+#leftmenu .cur {}
+#leftmenu .cur A {COLOR: #000099}
+#mainright { FLOAT: right; MARGIN: 5px 4px 0px 0px; width:703px!important; WIDTH: 696px}
+.mainright_1 { FLOAT: right;MARGIN: 12px 4px 0px 0px; background:url(../images/socend_p_c.gif) repeat-x; height:42px;width:703px!important; WIDTH: 696px}
+.mainright_text{ line-height:42px;}
+.mainright_text2{ line-height:27px; padding:25px; overflow:hidden;}
